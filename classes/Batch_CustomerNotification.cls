@@ -3,7 +3,7 @@
  *
  * This batch class is used to send customer emails as per business logic
  * ALl the customer case having ReassignedDate__c in past will be processed
- * Class is bulkified 
+ * Class is bulkified akdhahdajkhjhd
  * Class is scheduled to run daily at 13:00 (1 PM daily)
  * System.schedule('Batch_CustomerNotification Daily', '0 0 13 ? * * *', new Batch_CustomerNotification() );
  * batch to process pending request  
@@ -16,7 +16,7 @@ global class Batch_CustomerNotification implements Database.Batchable<sObject>,S
      public static map<String,string> ownerToEmailTemplateNameMap = new  map<String,string>{'First Level'=>'CustomerNotificationFirstLevel',
                                                                                             'Second Level'=>'CustomerNotificationSecondLevel' };
      /**
-     * execute
+     * execute test jlhadkjadhuiahduy dajhdig hbajhba
      *
      * Scheduler execute method to schedule code execution
      *
@@ -31,7 +31,7 @@ global class Batch_CustomerNotification implements Database.Batchable<sObject>,S
     global list<String> secondLevelNotificationEmailList;
 
     /**
-     * start
+     * startiadadgiugiudygad
      *
      * batch start method to define the context
      *
