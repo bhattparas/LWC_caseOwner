@@ -1,7 +1,7 @@
 /**
  * Batch_CustomerNotification
  *
- * This batch class is used to send customer emails
+ * This batch class is used to send customer emails as per business logic
  * ALl the customer case having ReassignedDate__c in past will be processed
  * Class is bulkified 
  * Class is scheduled to run daily at 13:00 (1 PM daily)
