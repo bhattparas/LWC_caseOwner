@@ -1,5 +1,5 @@
 /**
- * Batch_CustomerNotification
+ * Batch_CustomerNotification -- Vatsal chnages 18th Oct
  *
  * This batch class is used to send customer emails as per business logic
  * ALl the customer case having ReassignedDate__c in past will be processed
